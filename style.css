@@ -1,0 +1,27 @@
+.block{
+    width: 5rem;
+    aspect-ratio: 1;
+}
+.red{
+    background: #f24e;
+    border-radius: 50% 0 0 50% ;
+}
+.orange{
+    background: #a259ff;
+    border-radius: 50% 0 0 50%;
+}
+.blue{
+    background: #1abcfe;
+    border-radius: 50%;
+}
+.green{
+    background: #0acf83;
+    border-radius: 50% 0 50% 50%;
+}
+
+
+.figma-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 10rem;
+}
